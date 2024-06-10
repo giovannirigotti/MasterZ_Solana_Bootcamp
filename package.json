@@ -10,7 +10,8 @@
     "keygen": "ts-node ./keygen.ts",
     "airdrop": "ts-node ./airdrop.ts",
     "splInit": "ts-node ./spl_init.ts",
-    "splMint": "ts-node ./spl_mint.ts"
+    "splMint": "ts-node ./spl_mint.ts",
+    "splTransfer": "ts-node ./spl_transfer.ts"
   },
   "dependencies": {
     "@solana/spl-token": "^0.4.6",
