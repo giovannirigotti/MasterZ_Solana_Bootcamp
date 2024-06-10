@@ -8,9 +8,12 @@
   "license": "MIT",
   "scripts": {
     "keygen": "ts-node ./keygen.ts",
-    "airdrop": "ts-node ./airdrop.ts"
+    "airdrop": "ts-node ./airdrop.ts",
+    "splInit": "ts-node ./spl_init.ts",
+    "splMint": "ts-node ./spl_mint.ts"
   },
   "dependencies": {
+    "@solana/spl-token": "^0.4.6",
     "@solana/web3.js": "^1.92.3",
     "@types/node": "^20.14.2",
     "bs58": "^5.0.0",
