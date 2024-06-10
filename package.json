@@ -7,7 +7,8 @@
   "author": "giovannirigotti <rigotti.giovanni@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "keygen": "ts-node ./keygen.ts"
+    "keygen": "ts-node ./keygen.ts",
+    "airdrop": "ts-node ./airdrop.ts"
   },
   "dependencies": {
     "@solana/web3.js": "^1.92.3",
